@@ -113,7 +113,7 @@ window.addEventListener('load',()=>{
         putIn()
         
     }
-    if (localStorage.getItem("ID1") == localStorage.getItem("pick") ) {
+    if (localStorage.getItem("ID1") === localStorage.getItem("pick") ) {
         alert("Message from " + USERS1[localStorage.getItem("ID2")] + ":"+ +"\n"+ localStorage.getItem("msg") )
     }
         
